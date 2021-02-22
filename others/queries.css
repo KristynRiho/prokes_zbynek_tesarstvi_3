@@ -1,0 +1,76 @@
+@media only screen and (max-width: 1080px){
+    h1{
+        font-size: 56px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .flexContainer img{
+        margin-top: 13px;
+    }
+}
+
+@media only screen and (max-width: 870px){
+    h1{
+        font-size: 42px;
+    }
+    header{
+        height: 50vh;
+    }
+
+    /*** SECTION - HEADINGS */
+section h2{
+    font-size: 36px;
+    }
+    
+    section h2::after{
+        content: "";
+        display: block;
+        border: 3px solid  rgb(248, 208, 148);
+        border-radius: 20px;
+        width: 30%;
+        margin: 10px auto;
+    }
+}
+
+@media only screen and (max-width: 745px){
+    body{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 28px;
+    }
+    section h2{
+        font-size: 24px;
+        }
+    .menu ul{
+        flex-direction: column;
+        display: flex;
+    text-align: center;
+    padding: 3px 0;
+    letter-spacing: 2px;
+    font-size: 24px;
+    }
+    .menu li a{
+        padding: 3px;
+    }
+}
+
+@media only screen and (max-width: 560px){
+    body{
+        font-size: 14px;
+    }
+    header{
+        height: 30vh;
+    }
+    section h2{
+        margin: 10px 0;
+        font-size: 20px;
+        }
+    section h2::after{
+        border: 1px solid  rgb(248, 208, 148);
+        border-radius: 20px;
+        width: 60%;
+        margin: 3px auto;
+    }
+}
